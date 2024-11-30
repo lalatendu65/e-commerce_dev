@@ -2,26 +2,22 @@
 This is an e-commerce API built using Express.js and MongoDB
 
 ***Features**:
-
 User registration and authentication
-
-Create and manage product
-Add the product to Cart 
-
-Admin management for product
+Create and manage products
+Add products to the cart
+Admin management for products
 
 **Prerequisites**:
 
 Before you begin, ensure you have met the following requirements:
 Node.js (v18 or higher)
+MongoDB: You can use either a local installation or a cloud MongoDB database (e.g., MongoDB Atlas)
+npm: Node package manager
 
-MongoDB :(local installation or a cloud database)
-
-npm (Node package manager)
 
 **Installation**: 
 
-Clone the repository:git clone https://github.com/yourusername/event-booking-api.git
+Clone the repository:git clone https://github.com/lalatendu65/e-commerce_dev.git
 
 Navigate to the project directory:cd e-commerce_dev
 
@@ -45,8 +41,11 @@ MONGODB_URI: The connection string for your MongoDB database.
 
 PORT: The port the server will run on (default is 8000).
 
-Other variables you may need based on your application (e.g., JWT secrets).
-Make sure to create your own values for these variables.
+JWT_SECRET (optional, if you use JWT for authentication): A secret key for signing JWT
+
+Make sure to create your own values for these variables in the .env file.
+
+
 
 **API Endpoints:**
 
